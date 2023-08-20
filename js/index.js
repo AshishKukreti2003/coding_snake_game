@@ -34,13 +34,15 @@ function gameEngine() {
     alert("Game Over. Press any key to play again!");
     snakeArr=[{x:13,y:15}];
     musicSound.play();
-    score=0;
+    score=0; 
   }
 
   // if you have eaten the food, increment the score and regenerate the food
   if(snakeArr[0].y==food.y && snakeArr[0].x==food.x){
     snakeBody.unshift({x:snakeArr[0].x + inputDir.x, y:snakeArr[0].y + inputDir.y});
-    food={x:2 + Math.round()}
+    let a = 2;
+    let b = 16;
+    food={x: Math.round(a+(b-a)*Math.random()), y: Math.round(a+(b-a)*Math.random())}
   }
 
   // part 2: display  the snake
