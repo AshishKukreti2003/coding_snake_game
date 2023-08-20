@@ -23,13 +23,38 @@
     grid-template-columns: repeat(18, 1fr);
 }
 
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .snake{
     background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
 }
 .head{
-    background-color: red;
+    background: linear-gradient(rgb(170, 90, 90), rgb(174, 174, 98));
+    border: 2px solid purple;
+    transform: scale(1.02);
+    border-radius: 9px;
 }
 
 .food{
-    background-color: yellow;
+    background: linear-gradient(rgb(118, 7, 7), rgb(88, 8, 88));
+    border: .25vmin solid black;
+    border-radius: 8px;
 }
