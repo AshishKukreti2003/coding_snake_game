@@ -41,7 +41,7 @@ Visit the live game: [Snake Game](https://ashishkukreti2003.github.io/coding_sna
 
 ## Credits
 
-- Background image sourced from: [Background Image](../img/bg.jpg)
+- Background image sourced from: [Background Image](/img/bg.jpg)
 - Sound effects obtained from the game are used for an interactive experience.
 
 Feel free to contribute, report issues, or suggest improvements to this project!
