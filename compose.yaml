@@ -1,0 +1,6 @@
+services:
+  img:
+    build: .
+    container_name: basic-container
+    ports:
+      - 8080:80
